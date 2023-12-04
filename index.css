@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+	min-height: 100vh;
+	display: flex; /* madadala natin sila sa center using display: flex; */
+	justify-content: center; /* magagamit naman etopara dalhin sila sa center horizontally */
+	align-items: center; /* eto naman dadalhin sa center vertically pero need muna natin ng min-height 100 para madala natin siya sa center*/
+	font-family: monospace;
+
+}
+
+.container {
+	background-color: rgba(255, 255, 255, .3);
+	padding: 20px;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+	border-radius: 15px;
+	width: 85%;
+	text-align: center;
+	color: darkgreen;
+}
+
+.heading {
+	font-size: 35px;
+	font-weight: 200; /*thickness of font*/
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+	letter-spacing: 2px; /* normal spacing for the current font. it is typically zero length */
+}
+
+.joke {
+	font-size: 25px;
+	font-weight: 500; /* thickness ng font */
+	margin: 40px;
+}
+
+.btn {
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 5px;
+	cursor: pointer; /* para maging pointer yung cursor kapag nakahover sa button */
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-color: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	width: 300px;
+	color: darkgreen;
+
+}
+
+.btn:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+	transition: all 300ms ease;
+}
